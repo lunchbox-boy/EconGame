@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class TimeManager 
 {
-    int 
-    
+
+    Date date = new Date(1,1,1);
 }
 
 public enum Month
@@ -15,7 +15,16 @@ public enum Month
 
 public struct Date
 {
-    
+    int year;
+    int month;
+    int day;
+
+    public Date(int year, int month, int day)
+    {
+        this.year = year;
+        this.month = month;
+        this.day = day;
+    }
 }
 
 
