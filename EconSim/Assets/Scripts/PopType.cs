@@ -5,4 +5,9 @@ using UnityEngine;
 public class PopType
 {
     static string name;
+
+    //visual sprite
+    //color
+
+    //strata
 }

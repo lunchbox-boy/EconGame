@@ -6,7 +6,9 @@ public class State
 {
     public static int ID;
 
-    Pop[] pops;
+    List<Pop> pops;
+
+
 
 
 }

@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class Province 
 {
-    public static State[]
+    public static State[] states;
 }

@@ -8,9 +8,14 @@ public class Pop : MonoBehaviour
 
 
     Culture culture;
+    //how (-)authoritarian or freedom loving(+) this pop is
+    float polSocial;
+    //economic (-)left/right(+)
+    float polEcon;
+
 
     //issues
-    //movement
+    //political movement => an issue that some of the pop is willing to protest/revolt 
     //
 
 
