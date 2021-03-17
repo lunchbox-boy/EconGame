@@ -4,11 +4,8 @@ using UnityEngine;
 
 public class State 
 {
-    public static int ID;
+    public List<Province> provinces;
 
-    List<Pop> pops;
-
-
-
+    bool hasStateInitiative;
 
 }

@@ -2,21 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pop : MonoBehaviour
+public class Pop 
 {
     int size;
 
-
     Culture culture;
-    //how (-)authoritarian or freedom loving(+) this pop is
-    float polSocial;
-    //economic (-)left/right(+)
-    float polEcon;
+
+    //how much does this pop want to revolt/fight in a rebellion
+    float militancy;
+
+    //how much does this pop care about the political situation
+    //doesnt mean they want it to change but means they care more if there is something they care about
+    float awareness; 
 
 
-    //issues
-    //political movement => an issue that some of the pop is willing to protest/revolt 
-    //
 
 
 }
